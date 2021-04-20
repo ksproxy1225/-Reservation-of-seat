@@ -70,7 +70,7 @@ jobs:
           password: ${{ secrets.MAILPASSWORD }}
           subject: gh Actions job result
           body: possible failed!
-          to: 2506923314@qq.com
+          to: 1791782410@qq.com
           from: ghActions
           content_type: text/html
           attachments: ./img/jt1.jpg
