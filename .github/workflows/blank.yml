@@ -34,8 +34,9 @@ jobs:
 
       - name: Install env
         run: |
-          sudo rm -rf /etc/apt/sources.list.d/*
-
+          sudo apt-get update
+          sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+#          sudo rm -rf /etc/apt/sources.list.d/*
       - name: Build with Maven
         run: java -version
 
