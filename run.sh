@@ -8,5 +8,5 @@ then
 	curl -L "https://karili-generic.pkg.coding.net/remote/v1/yuyue.jar?version=latest" -o yuyue.jar
 else
 	echo default
-	curl -L "https://karili-generic.pkg.coding.net/remote/v1/yuyue.jar?version=default" -o yuyue.jar
+	curl -L "https://karili-generic.pkg.coding.net/remote/v1/yuyue.jar?version=update" -o yuyue.jar
 fi
